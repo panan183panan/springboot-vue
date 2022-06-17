@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+#?serverTimezone=GMT%2b8
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.41.97.173:3306/spring-project
+    username: Spring-project
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #扫描mabatis的所有xml文件
+
